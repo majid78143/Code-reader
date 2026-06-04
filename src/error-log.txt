@@ -1,0 +1,78 @@
+[6/3/2026, 2:02:16 PM] Error: Used disallowed intents
+Error: Used disallowed intents
+    at WebSocketShard.onClose (/home/container/node_modules/@discordjs/ws/src/ws/WebSocketShard.ts:815:13)
+    at WebSocket.connection.onclose (/home/container/node_modules/@discordjs/ws/src/ws/WebSocketShard.ts:203:14)
+    at callListener (/home/container/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onClose (/home/container/node_modules/ws/lib/event-target.js:220:9)
+    at WebSocket.emit (node:events:524:28)
+    at WebSocket.emit (node:domain:489:12)
+    at WebSocket.emitClose (/home/container/node_modules/ws/lib/websocket.js:279:10)
+    at TLSSocket.socketOnClose (/home/container/node_modules/ws/lib/websocket.js:1360:15)
+    at TLSSocket.emit (node:events:536:35)
+    at TLSSocket.emit (node:domain:489:12)
+
+[6/3/2026, 2:02:43 PM] Error: Used disallowed intents
+Error: Used disallowed intents
+    at WebSocketShard.onClose (/home/container/node_modules/@discordjs/ws/src/ws/WebSocketShard.ts:815:13)
+    at WebSocket.connection.onclose (/home/container/node_modules/@discordjs/ws/src/ws/WebSocketShard.ts:203:14)
+    at callListener (/home/container/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onClose (/home/container/node_modules/ws/lib/event-target.js:220:9)
+    at WebSocket.emit (node:events:524:28)
+    at WebSocket.emit (node:domain:489:12)
+    at WebSocket.emitClose (/home/container/node_modules/ws/lib/websocket.js:279:10)
+    at TLSSocket.socketOnClose (/home/container/node_modules/ws/lib/websocket.js:1360:15)
+    at TLSSocket.emit (node:events:536:35)
+    at TLSSocket.emit (node:domain:489:12)
+
+[6/3/2026, 2:11:34 PM] Error: Used disallowed intents
+Error: Used disallowed intents
+    at WebSocketShard.onClose (/home/container/node_modules/@discordjs/ws/src/ws/WebSocketShard.ts:815:13)
+    at WebSocket.connection.onclose (/home/container/node_modules/@discordjs/ws/src/ws/WebSocketShard.ts:203:14)
+    at callListener (/home/container/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onClose (/home/container/node_modules/ws/lib/event-target.js:220:9)
+    at WebSocket.emit (node:events:524:28)
+    at WebSocket.emit (node:domain:489:12)
+    at WebSocket.emitClose (/home/container/node_modules/ws/lib/websocket.js:279:10)
+    at TLSSocket.socketOnClose (/home/container/node_modules/ws/lib/websocket.js:1360:15)
+    at TLSSocket.emit (node:events:536:35)
+    at TLSSocket.emit (node:domain:489:12)
+
+[6/3/2026, 2:11:58 PM] Error: Used disallowed intents
+Error: Used disallowed intents
+    at WebSocketShard.onClose (/home/container/node_modules/@discordjs/ws/src/ws/WebSocketShard.ts:815:13)
+    at WebSocket.connection.onclose (/home/container/node_modules/@discordjs/ws/src/ws/WebSocketShard.ts:203:14)
+    at callListener (/home/container/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onClose (/home/container/node_modules/ws/lib/event-target.js:220:9)
+    at WebSocket.emit (node:events:524:28)
+    at WebSocket.emit (node:domain:489:12)
+    at WebSocket.emitClose (/home/container/node_modules/ws/lib/websocket.js:279:10)
+    at TLSSocket.socketOnClose (/home/container/node_modules/ws/lib/websocket.js:1360:15)
+    at TLSSocket.emit (node:events:536:35)
+    at TLSSocket.emit (node:domain:489:12)
+
+[6/3/2026, 2:13:17 PM] Error: Used disallowed intents
+Error: Used disallowed intents
+    at WebSocketShard.onClose (/home/container/node_modules/@discordjs/ws/src/ws/WebSocketShard.ts:815:13)
+    at WebSocket.connection.onclose (/home/container/node_modules/@discordjs/ws/src/ws/WebSocketShard.ts:203:14)
+    at callListener (/home/container/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onClose (/home/container/node_modules/ws/lib/event-target.js:220:9)
+    at WebSocket.emit (node:events:524:28)
+    at WebSocket.emit (node:domain:489:12)
+    at WebSocket.emitClose (/home/container/node_modules/ws/lib/websocket.js:279:10)
+    at TLSSocket.socketOnClose (/home/container/node_modules/ws/lib/websocket.js:1360:15)
+    at TLSSocket.emit (node:events:536:35)
+    at TLSSocket.emit (node:domain:489:12)
+
+[6/3/2026, 2:13:41 PM] Error: Used disallowed intents
+Error: Used disallowed intents
+    at WebSocketShard.onClose (/home/container/node_modules/@discordjs/ws/src/ws/WebSocketShard.ts:815:13)
+    at WebSocket.connection.onclose (/home/container/node_modules/@discordjs/ws/src/ws/WebSocketShard.ts:203:14)
+    at callListener (/home/container/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onClose (/home/container/node_modules/ws/lib/event-target.js:220:9)
+    at WebSocket.emit (node:events:524:28)
+    at WebSocket.emit (node:domain:489:12)
+    at WebSocket.emitClose (/home/container/node_modules/ws/lib/websocket.js:279:10)
+    at TLSSocket.socketOnClose (/home/container/node_modules/ws/lib/websocket.js:1360:15)
+    at TLSSocket.emit (node:events:536:35)
+    at TLSSocket.emit (node:domain:489:12)
+
