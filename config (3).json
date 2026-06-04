@@ -1,0 +1,46 @@
+{
+  "bot": {
+    "token": "MTUxMTc4MDA3MTkyMzM4NDQxMA.GkaAXA.iXc3guJdlt3889jtEPfCXggkp7AGGfhia5JNUI",
+    "id": "1511780071923384410",
+    "ownerId": "1464697383467356316",
+    "guildId": "1503104026139562026",
+    "tokenChannelId": "1509415724668682280",
+    "admins": [
+      "1457705785273614346",
+      "1213897866192490527"
+    ],
+    "developerCommandsServerIds": []
+  },
+  "database": {
+    "mongodbUrl": "mongodb+srv://THEMAJID:THEBHUWAN@themajid.iuidi4z.mongodb.net/?appName=THEMAJID"
+  },
+  "firebase": {
+    "apiKey": "",
+    "authDomain": "web-massaging-589b7.firebaseapp.com",
+    "databaseURL": "https://web-massaging-589b7-default-rtdb.firebaseio.com",
+    "projectId": "web-massaging-589b7",
+    "storageBucket": "web-massaging-589b7.firebasestorage.app"
+  },
+  "oauth": {
+    "clientId": "1511780071923384410",
+    "clientSecret": "gGN6rV8lNXL-pXNXtEPamhkJaKReG950",
+    "redirectUri": "https://ffprocheats.netlify.app/",
+    "scopes": [
+      "identify",
+      "guilds"
+    ]
+  },
+  "branding": {
+    "main": "MJ DEVLOPER",
+    "secondary": "MJ TEAM"
+  },
+  "prefix": {
+    "value": "!"
+  },
+  "logging": {
+    "guildJoinLogsId": "1509429068792205312",
+    "guildLeaveLogsId": "1509429068792205312",
+    "commandLogsChannelId": "1509429068792205312",
+    "errorLogs": ""
+  }
+}

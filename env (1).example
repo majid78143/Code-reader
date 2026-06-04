@@ -1,0 +1,27 @@
+# MJ DEVLOPER BOT — Environment Variables
+
+# Discord Bot
+BOT_TOKEN=
+BOT_ID=
+BOT_OWNER_ID=1464697383467356316
+
+# Discord OAuth2 (from Discord Developer Portal)
+DISCORD_CLIENT_ID=1511780071923384410
+DISCORD_CLIENT_SECRET=gGN6rV8lNXL-pXNXtEPamhkJaKReG950
+DISCORD_REDIRECT_URI=https://ffprocheats.netlify.app/
+# MongoDB
+MONGODB_URL=mongodb+srv://THEMAJID:THEBHUWAN@themajid.iuidi4z.mongodb.net/?appName=THEMAJID
+
+# Express
+EXPRESS_PORT=2048
+
+# Firebase (from Firebase Console)
+FIREBASE_API_KEY=
+FIREBASE_AUTH_DOMAIN=web-massaging-589b7.firebaseapp.com
+FIREBASE_DATABASE_URL=https://web-massaging-589b7-default-rtdb.firebaseio.com
+FIREBASE_PROJECT_ID=web-massaging-589b7
+FIREBASE_STORAGE_BUCKET=web-massaging-589b7.firebasestorage.app
+
+# Security
+WEBHOOK_SECRET=mj_webhook_secret_2024
+SESSION_SECRET=your_session_secret_here
