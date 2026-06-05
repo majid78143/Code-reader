@@ -205,7 +205,7 @@ const handleCommands = async (client, commandsPath) => {
         if (isConfigIncomplete('botid', config.bot.id, placeholderTokens)) {
             log("Bot ID is missing or incorrect. Please replace 'YOUR_BOT_ID' with your actual bot ID in config.json.", 'ERROR');
         }
-        if (isConfigIncomplete('bottoken', config.bot.token, placeholderTokens)) {
+        if (isConfigIncomplete('botToken', process.env.TOKEN || config.bot.token, placeholderTokens)) {
             log("Bot token is missing or incorrect. Please replace 'YOUR_BOT_TOKEN' with your actual bot token in config.json.", 'ERROR');
         }
         process.exit(1);
