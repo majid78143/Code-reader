@@ -21,7 +21,7 @@ const { Client, GatewayIntentBits, Partials, Events } = require("discord.js");
   const { startAutoLikeScheduler } = require("./functions/other/automation");
   const { initFirebase } = require("./firebase");
   const { startFirebaseBridge } = require("./functions/web/firebaseBridge");
-  const { setClient } = require("./functions/web/loggers");
+  const loggers = require("./functions/web/loggers");
   const { startExpressServer } = require("./functions/web/expressServer");
 
   let mentionHandler = null;
@@ -50,7 +50,9 @@ const { Client, GatewayIntentBits, Partials, Events } = require("discord.js");
 
   client.once(Events.ClientReady, async () => {
     console.log(chalk.green.bold(`✅ Logged in as ${client.user.tag}`));
-    setClient(client);
+    if (loggers && typeof loggers.setClient === "function") {
+  loggers.setClient(client);
+}
     try { checkMissingIntents(client); } catch(err) { logErrorToFile(err); }
     if (!global.AUTO_LIKE_STARTED) {
       try { startAutoLikeScheduler(client); global.AUTO_LIKE_STARTED = true; console.log(chalk.blue("⏰ AutoLike Scheduler Started")); }
