@@ -1,7 +1,7 @@
 const axios = require('axios');
 const cron = require('node-cron');
 
-const botConfig = require("src/events/handlers/tokenupdate.js");
+const botConfig = require("../../../config.json");
 const TOKEN_CHANNEL_ID = botConfig?.bot?.tokenChannelId || "";
 const TOKEN_URL = "https://jwt-tokens-3-zeta.vercel.app/sg";
 
