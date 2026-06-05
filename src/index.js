@@ -65,7 +65,7 @@ const { Client, GatewayIntentBits, Partials, Events } = require("discord.js");
   (async () => {
     try {
       await eventsHandler(client, path.join(__dirname, "events"));
-      await client.login(config.bot.token);
+      await client.login(process.env.TOKEN || config.bot.token);
       console.log(chalk.green("✅ Bot login initiated..."));
     } catch(err) {
       console.error(chalk.red("❌ Bot failed to start:"), err.message);
